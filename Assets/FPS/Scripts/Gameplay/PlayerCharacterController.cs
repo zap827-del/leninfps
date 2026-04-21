@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 namespace Unity.FPS.Gameplay
 {
-    [RequireComponent(typeof(CharacterController), typeof(PlayerInputHandler), typeof(AudioSource))]
+    //[RequireComponent(typeof(CharacterController), typeof(PlayerInputHandler), typeof(AudioSource))]
     public class PlayerCharacterController : MonoBehaviour
     {
         [Header("References")] [Tooltip("Reference to the main camera used for the player")]

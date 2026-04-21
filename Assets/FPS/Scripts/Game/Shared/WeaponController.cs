@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using FMODUnity;
 
 namespace Unity.FPS.Game
 {
@@ -25,9 +26,14 @@ namespace Unity.FPS.Game
         public Color CrosshairColor;
     }
 
-    [RequireComponent(typeof(AudioSource))]
+   // [RequireComponent(typeof(AudioSource))]
     public class WeaponController : MonoBehaviour
+
+
     {
+
+        public FMODUnity.EventReference audiotest;
+
         [Header("Information")] [Tooltip("The name that will be displayed in the UI for this weapon")]
         public string WeaponName;
 

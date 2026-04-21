@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 namespace Unity.FPS.Gameplay
 {
-    [RequireComponent(typeof(AudioSource))]
+    //[RequireComponent(typeof(AudioSource))]
     public class Jetpack : MonoBehaviour
     {
         [Header("References")] [Tooltip("Audio source for jetpack sfx")]
