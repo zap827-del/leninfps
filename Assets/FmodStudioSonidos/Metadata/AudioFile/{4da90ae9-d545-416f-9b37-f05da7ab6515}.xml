@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4da90ae9-d545-416f-9b37-f05da7ab6515}">
+		<property name="assetPath">
+			<value>FX-20260423T222217Z-3-001/FX/SFX_Enemy_Disparo_V1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.024</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{78bafcd5-441b-4d2f-a49d-2c95595032f7}</destination>
+		</relationship>
+	</object>
+</objects>

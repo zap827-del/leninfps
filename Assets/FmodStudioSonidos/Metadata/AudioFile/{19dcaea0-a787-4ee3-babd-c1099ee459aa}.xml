@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{19dcaea0-a787-4ee3-babd-c1099ee459aa}">
+		<property name="assetPath">
+			<value>FX-20260423T222217Z-3-001/FX/SFX_Arma_Disparo_V2.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.968</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{78bafcd5-441b-4d2f-a49d-2c95595032f7}</destination>
+		</relationship>
+	</object>
+</objects>
