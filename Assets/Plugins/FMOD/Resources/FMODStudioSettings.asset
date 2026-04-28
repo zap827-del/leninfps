@@ -536,8 +536,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: unity leninfps/unity leninfps.fspro
-  sourceBankPath: unity leninfps/Build
+  sourceProjectPath: Assets/FmodStudioSonidos/FmodStudioSonidos.fspro
+  sourceBankPath: Assets/FmodStudioSonidos/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -559,8 +559,12 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Enemy
+  - Player
+  - Torreta
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
